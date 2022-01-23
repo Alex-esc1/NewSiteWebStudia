@@ -1,0 +1,8 @@
+// Fix for main content illustration
+.site-footer {
+    position: relative;
+
+    &::before {
+        z-index: -1;
+    }
+}

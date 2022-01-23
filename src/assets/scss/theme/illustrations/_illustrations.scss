@@ -1,0 +1,85 @@
+[class*=illustration-] {
+	position: relative;
+
+	&::after {
+		pointer-events: none;
+	}
+}
+
+[class*=illustration-element-]::after {
+	z-index: -1;
+}
+
+[class*=illustration-section-]::after {
+	z-index: -2;
+}
+
+// Hero illustrations
+.illustration-section-01,
+.illustration-section-02 {
+
+	&::after {
+		@include illustration('illustration-section-02.svg', 100%, 738px, top);
+	}
+}
+
+.illustration-section-01::after {
+
+	@include media( '>medium' ) {
+		@include illustration('illustration-section-01.svg', 100%, 738px, top);
+	}
+}
+
+// Testimonials illustration
+.illustration-section-03::after {
+	@include illustration('illustration-section-03.svg', 200%, 214px, top, null, -118px);
+}
+
+// Pricing illustration
+.illustration-section-04::after {
+	@include illustration('illustration-section-04.svg', 200%, 469px, top, null, -42px);
+}
+
+// Site main illustration
+.illustration-section-05::after {
+	@include illustration('illustration-section-05.svg', 100%, 572px, bottom, null, -300px);
+}
+
+// Behind features split image
+.illustration-element-01::after {
+	@include illustration('illustration-element-01.svg', 200%, 200%);
+}
+
+.illustration-element-02::after {
+	@include illustration('illustration-element-02.svg', 200%, 200%);
+}
+
+.illustration-element-03::after {
+	@include illustration('illustration-element-03.svg', 200%, 200%);
+}
+
+// Behind team
+.illustration-element-04::after {
+	@include illustration('illustration-element-04.svg', 200%, 200%);
+}
+
+.illustration-element-05::after {
+	@include illustration('illustration-element-05.svg', 200%, 200%);
+}
+
+.illustration-element-06::after {
+	@include illustration('illustration-element-06.svg', 300%, 300%);
+}
+
+.illustration-element-07::after {
+	@include illustration('illustration-element-07.svg', 300%, 300%);
+}
+
+.illustration-element-08::after {
+	@include illustration('illustration-element-08.svg', 200%, 200%);
+}
+
+// Behind hero figure
+.illustration-element-09::after {
+	@include illustration('illustration-element-09.svg', 100%, 100%, null, null, 19.25%);
+}
