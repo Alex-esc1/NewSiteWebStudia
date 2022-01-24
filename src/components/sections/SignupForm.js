@@ -77,7 +77,12 @@ class SignupForm extends React.Component {
                           required />
                       </div>
                       <div className="mb-12">
-                        <textarea id="noter-text-area" name="textarea" placeholder="  Message" style={{width:"330px",border: '1px solid #e4e8ee'}}/>
+                        <Input
+                          type="textarea"
+                          label="Message"
+                          placeholder="Message"
+                          labelHidden
+                          required />
                       </div>
                       <div className="mt-24 mb-32">
                         <Button color="primary" wide>Send</Button>
