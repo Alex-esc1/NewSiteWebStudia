@@ -3,8 +3,6 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import { Link } from 'react-router-dom';
 import SectionHeader from './partials/SectionHeader';
-import Input from '../elements/Input';
-import Button from '../elements/Button';
 
 const propTypes = {
   ...SectionProps.types
@@ -45,7 +43,7 @@ class SignupForm extends React.Component {
     );
 
     const sectionHeader = {
-      title: 'Leave your message.',
+      title: 'Contacts',
     };
 
     return (
@@ -59,36 +57,18 @@ class SignupForm extends React.Component {
             <div className="tiles-wrap">
               <div className="tiles-item">
                 <div className="tiles-item-inner">
-                  <form>
-                    <fieldset>
-                      <div className="mb-12">
-                        <Input
-                          label="Full name"
-                          placeholder="Full name" 
-                          labelHidden
-                          required />
-                      </div>
-                      <div className="mb-12">
-                        <Input
-                          type="email"
-                          label="Email"
-                          placeholder="Email"
-                          labelHidden
-                          required />
-                      </div>
-                      <div className="mb-12">
-                        <Input
-                          type="textarea"
-                          label="Message"
-                          placeholder="Message"
-                          labelHidden
-                          required />
-                      </div>
-                      <div className="mt-24 mb-32">
-                        <Button color="primary" wide>Send</Button>
-                      </div>
-                    </fieldset>
-                  </form>
+                <div className="mb-12">
+                  Phone: <a href="tel:+375333423230"> +375 33 342 3230</a>
+                  </div>
+                  <div className="mb-12">
+                  Telegram: <a href="https://t.me/alex_esc1"> Click Here</a>
+                  </div>
+                  <div className="mb-12">
+                  Viber: <a href="viber://chat?number=%2B375296829673"> Click Here</a>
+                  </div>
+                  <div className="mb-12">
+                  Email:<a href="mailto:info@i-next.by"> info@i-next.by</a>
+                  </div>
                   <div className="signin-bottom has-top-divider">
                     <div className="pt-32 text-xs center-content text-color-low">
                       <Link to="/" className="func-link">Back</Link>

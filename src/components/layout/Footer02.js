@@ -57,10 +57,10 @@ class Footer extends React.Component {
                   </ul>
                 </div>
                 <div className="footer-block">
-                  <div className="footer-block-title">Uses cases</div>
+                  <div className="footer-block-title">How to contact us</div>
                   <ul className="list-reset">
                     <li>
-                      <a href="/signup/">Write a message</a>
+                      <a href="/signup/">Contacts</a>
                     </li>
                   </ul>
                 </div>

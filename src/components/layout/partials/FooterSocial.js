@@ -18,7 +18,7 @@ const FooterSocial = ({
     >
       <ul className="list-reset">
         <li>
-          <a href="https://t.me/alex_esc1" terget="_blank">
+          <a href="https://t.me/alex_esc1">
             <svg
               width="16"
               height="16"

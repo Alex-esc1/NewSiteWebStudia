@@ -5,6 +5,8 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "lodash": "^4.17.15",
+    "nodemailer": "^6.7.2",
+    "nodemailer-smtp-transport": "^2.7.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
