@@ -79,7 +79,7 @@ class Team extends React.Component {
                           Andrew Shilenkov
                       </h5>
                       <div className="team-item-role text-xxs tt-u fw-700 text-color-secondary mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
-                          Sales manager & Lawyer
+                          Founder & Sales manager
                       </div>
                       <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">
                       </p>
@@ -114,7 +114,7 @@ class Team extends React.Component {
               <div className="tiles-item">
                 <div className="tiles-item-inner">
                   <div className="team-item-header">
-                    <div className="team-item-image mb-24 illustration-element-06 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
+                    <div className="team-item-image mb-24 illustration-element-05 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
                       <Image
                         src={require('./../../assets/images/team-member-03.jpg')}
                         alt="Team member 03"
@@ -128,6 +128,79 @@ class Team extends React.Component {
                       </h5>
                       <div className="team-item-role text-xxs tt-u fw-700 text-color-secondary mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="400">
                           CTO & Back-end developer
+                      </div>
+                      <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="500">
+                      </p>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div className="tiles-item">
+                <div className="tiles-item-inner">
+                  <div className="team-item-header">
+                    <div className="team-item-image mb-24 illustration-element-05 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
+                      <Image
+                        src={require('./../../assets/images/team-member-04.jpg')}
+                        alt="Team member 04"
+                        width={180}
+                        height={180} />
+                    </div>
+                  </div>
+                  <div className="team-item-content">
+                      <h5 className="team-item-name mt-0 mb-4 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">
+                          Ilyi Vinikov
+                      </h5>
+                      <div className="team-item-role text-xxs tt-u fw-700 text-color-secondary mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="400">
+                          Co-founder & Team Lead
+                      </div>
+                      <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="500">
+                      </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="tiles-item">
+                <div className="tiles-item-inner">
+                  <div className="team-item-header">
+                    <div className="team-item-image mb-24 illustration-element-05 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
+                      <Image
+                        src={require('./../../assets/images/team-member-06.jpg')}
+                        alt="Team member 06"
+                        width={180}
+                        height={180} />
+                    </div>
+                  </div>
+                  <div className="team-item-content">
+                      <h5 className="team-item-name mt-0 mb-4 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">
+                        Vladimir Gorelko
+                      </h5>
+                      <div className="team-item-role text-xxs tt-u fw-700 text-color-secondary mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="400">
+                        Java Developer
+                      </div>
+                      <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="500">
+                      </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="tiles-item">
+                <div className="tiles-item-inner">
+                  <div className="team-item-header">
+                    <div className="team-item-image mb-24 illustration-element-06 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="200">
+                      <Image
+                        src={require('./../../assets/images/team-member-05.jpg')}
+                        alt="Team member 05"
+                        width={180}
+                        height={180} />
+                    </div>
+                  </div>
+                  <div className="team-item-content">
+                      <h5 className="team-item-name mt-0 mb-4 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="300">
+                        Andrey Kobyak
+                      </h5>
+                      <div className="team-item-role text-xxs tt-u fw-700 text-color-secondary mb-8 reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="400">
+                        Web Developer
                       </div>
                       <p className="m-0 text-sm reveal-from-top" data-reveal-container=".tiles-item" data-reveal-delay="500">
                       </p>
